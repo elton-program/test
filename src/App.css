@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #e5e5e5;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.big{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.knopka2{
+  width: 100px;
+  height: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #121212;
+  color: white;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #3a3a3a;
+}
+.mega {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #141414;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+}
+
+.book-title {
+  flex: 1;
+}
+
+.read {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.actions button {
+  margin-left: 5px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  border: 1px solid #333;
+}
+.nom {
+  text-align: center;
+}
+.modal input {
+  width: 90%;
+  margin-top: 10px;
+}
+.knopka {
+  width: 120px;
+  height: 30px;
+}
+.modal-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
